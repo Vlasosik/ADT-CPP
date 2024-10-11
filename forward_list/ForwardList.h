@@ -1,7 +1,5 @@
 #ifndef LIST_H
 #define LIST_H
-#include <iostream>
-
 /*
 * Implementation of the Abstract Data Type (ADT) "Forward List" (singly linked list).
 *
@@ -23,8 +21,6 @@
 *
 * @author Vlas Pototskyi
 */
-
-
 template<typename T>
 class ForwardList {
     struct Node {
