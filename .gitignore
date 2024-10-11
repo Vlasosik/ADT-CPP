@@ -1,0 +1,125 @@
+# Object files, static libraries, and dynamic libraries
+*.o
+*.a
+*.so
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.dll
+
+# Build directories
+/build/
+/bin/
+/obj/
+/lib/
+
+# CMake generated files
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Compiled source files
+*.class
+*.slo
+*.lo
+*.la
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource fork
+._*
+
+# macOS folder attributes
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+
+# macOS Finder attributes
+Icon?
+.metadata_never_index
+
+# macOS backup files
+*.swp
+*.lock
+
+# macOS system files
+.DS_Store
+Thumbs.db
+
+# Windows specific files
+*.obj
+*.lib
+*.log
+*.sdf
+*.pdb
+*.ilk
+*.idb
+*.res
+*.rsp
+*.pch
+*.aps
+*.ncb
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.ipch
+*.opensdf
+*.tlog
+*.vcxproj.user
+
+# Code editor specific
+*.vscode/
+.idea/
+*.user
+*.cproj
+*.ncb
+*.suo
+*.cbp
+*.pidb
+*.psess
+*.pdb
+*.opendb
+*.clangd
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Temporary or backup files
+*.tmp
+*.log
+*.bak
+*.old
+*.swp
+*.swo
+*.orig
+
+# GCC generated dependency files
+*.d
+
+# Clangd index
+.clangd
+
+# Coverage reports
+*.gcda
+*.gcno
+*.gcov
+
+# QtCreator specific
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+
+# CLion IDE specific
+cmake-build-*/
+
+# Visual Studio Code settings
+.vscode/
