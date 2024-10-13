@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(ADT main.cpp
         forward_list/ForwardList.h
         linked_list/LinkedList.h
-        stack/Stack.h)
+        stack/Stack.h
+        queue/Queue.h)
