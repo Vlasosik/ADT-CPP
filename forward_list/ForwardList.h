@@ -16,6 +16,20 @@
 *  - [[nodiscard]] int Size() const: Returns the number of elements in the list.
 *  - bool IsEmpty(): Returns true if the list is empty.
 *
+* Time complexity (Singly Linked List / Forward List):
+*  - PushFront: O(1) - Adds an element to the front, directly modifies head pointer.
+*  - PushBack: O(n) - Traverses the list to find the last element before adding a new one.
+*  - Insert: O(n) - Needs to traverse to the specific index.
+*  - PopFront: O(1) - Removes the first element by directly updating head pointer.
+*  - PopBack: O(n) - Needs to traverse the list to update the last element.
+*  - Remove: O(n) - Must search the list to find and remove the element.
+*  - Clear: O(n) - Must traverse the entire list and delete each element.
+*  - Size: O(1) - If size is stored as a member variable; otherwise O(n) if it needs to be calculated.
+*  - IsEmpty: O(1) - Checks if the head is null.
+*  - IsFind: O(n) - Needs to search the list to find the element.
+*  - Front: O(1) - Returns the first element (head).
+*  - Back: O(n) - Needs to traverse to the last element.
+*
 * Features:
 * - The singly linked list supports only forward access, so some operations (e.g., PopBack) may be less efficient.
 *
