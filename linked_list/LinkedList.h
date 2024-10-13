@@ -21,6 +21,20 @@
 *  - Iterator Begin(): Returns an iterator to the first element in the list.
 *  - Iterator End(): Returns an iterator to the last element in the list.
 *
+* Time complexity (Doubly Linked List):
+*  - PushFront: O(1) - Directly modifies head pointer, no need to traverse the list.
+*  - PushBack: O(1) - Directly modifies tail pointer, unlike singly linked list which needs traversal.
+*  - Insert: O(n) - Needs to traverse to the specific index.
+*  - PopFront: O(1) - Removes the first element by directly updating head pointer.
+*  - PopBack: O(1) - Removes the last element by directly updating tail pointer.
+*  - Remove: O(n) - Must search the list to find and remove the element.
+*  - Clear: O(n) - Must traverse the entire list and delete each element.
+*  - Size: O(1) - If size is stored as a member variable; otherwise O(n) if it needs to be calculated.
+*  - IsEmpty: O(1) - Checks if the head is null.
+*  - IsFind: O(n) - Needs to search the list to find the element.
+*  - Front: O(1) - Returns the first element (head).
+*  - Back: O(1) - Returns the last element (tail).
+*
 * Features:
 * - The doubly linked list supports both forward and backward traversal, allowing efficient removal and insertion at both ends.
 * - The list automatically manages memory allocation and deallocation, ensuring no memory leaks.
