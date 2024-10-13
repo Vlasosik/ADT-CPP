@@ -170,10 +170,10 @@ void Stack<T>::Push(const T &value) {
 
 template<typename T>
 T Stack<T>::Top() {
-    if (head == nullptr) {
+    if (tail == nullptr) {
         return -1;
     }
-    return head->element;
+    return tail->element;
 }
 
 template<typename T>
