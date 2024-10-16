@@ -7,4 +7,5 @@ add_executable(ADT main.cpp
         forward_list/ForwardList.h
         linked_list/LinkedList.h
         stack/Stack.h
-        queue/Queue.h)
+        queue/Queue.h
+        binary_tree/BinaryTree.h)
