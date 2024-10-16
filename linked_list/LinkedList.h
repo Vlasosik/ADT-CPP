@@ -1,6 +1,6 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
-/*
+/**
 * Implementation of the Abstract Data Type (ADT) "Doubly Linked List".
 *
 * The LinkedList class provides basic operations for working with a doubly linked list:

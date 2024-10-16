@@ -1,6 +1,6 @@
 #ifndef STACK_H
 #define STACK_H
-/*
+/**
 * Implementation of the Abstract Data Type (ADT) "Stack" using a doubly linked list.
 *
 * The Stack class provides basic operations for working with a stack:

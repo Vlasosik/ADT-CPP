@@ -1,6 +1,6 @@
 #ifndef LIST_H
 #define LIST_H
-/*
+/**
 * Implementation of the Abstract Data Type (ADT) "Forward List" (singly linked list).
 *
 * The ForwardList class provides basic operations for working with a singly linked list:
@@ -34,7 +34,6 @@
 * - The singly linked list supports only forward access, so some operations (e.g., PopBack) may be less efficient.
 *
 * @author Vlas Pototskyi
-*/
 template<typename T>
 class ForwardList {
     struct Node {
