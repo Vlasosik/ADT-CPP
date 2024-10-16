@@ -156,7 +156,6 @@ void BinaryTree<T>::RemoveSubTree(Node *other) {
     delete other;
 }
 
-// TODO:: need to implement template function instead of std::cout
 template<typename T>
 void BinaryTree<T>::InOrder(Node *node) {
     if (node == nullptr) {
