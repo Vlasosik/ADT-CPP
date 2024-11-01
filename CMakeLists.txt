@@ -8,4 +8,5 @@ add_executable(ADT main.cpp
         linked_list/LinkedList.h
         stack/Stack.h
         queue/Queue.h
-        binary_tree/BinaryTree.h)
+        binary_tree/BinaryTree.h
+        hash_table/HashTable.h)
