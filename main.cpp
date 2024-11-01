@@ -5,6 +5,7 @@
 #include "queue/Queue.h"
 #include "stack/Stack.h"
 #include "binary_tree/BinaryTree.h"
+#include "hash_table/HashTable.h"
 
 
 int main() {
