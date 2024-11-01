@@ -63,6 +63,22 @@ class ForwardList {
     *  - Iterator operator++(int): Advances the iterator to the next node and returns the original iterator (post-increment).
     *  - T operator*(): Dereferences the iterator to access the value of the current node.
     */
+template<typename T>
+class ForwardList {
+    struct Node {
+        Node *next;
+        T element;
+
+        explicit Node(const T &elem, Node *nextNode = nullptr) : next(nextNode), element(elem) {
+        }
+    };
+
+    Node *head;
+    Node *tail;
+    int size;
+
+    void Copy(const ForwardList &other);
+
 public:
     class Iterator {
         Node *node;
